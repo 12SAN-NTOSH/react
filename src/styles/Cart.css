@@ -1,0 +1,35 @@
+.cart {
+    margin-top: 30px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+  
+  .cart-item-info h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .cart-item-info p {
+    color: #555;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
